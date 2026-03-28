@@ -220,7 +220,7 @@ svg {
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 8px 3px 5px #c4d1e2;;
+    box-shadow: 8px 3px 5px #c4d1e2;
 }
 
 .card h4 {
@@ -230,7 +230,7 @@ svg {
     margin-left: 16px;
 }
 
-.card p {
+.card p{
     font-size: 17px;
     margin-top: 10px 0;
     margin-right: 10px;
@@ -260,3 +260,70 @@ svg {
     width: 25%;
     margin-left: 60px;
 }
+
+.card-ann {
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    height: 270px;
+    box-shadow: 8px 3px 5px #c4d1e2;
+    padding-top: 3%;
+}
+
+.divider {
+    border-top: 1px solid rgb(173, 172, 172);
+    width: 80%;
+    margin-left: 10%;
+}
+
+.username h6 {
+    font-size: 14px;
+}
+
+.username p {
+    font-size: 11px;
+}
+
+.little-text h6 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.little-text p{
+    font-size: 10px;
+    margin-top: 10px 0;
+    margin-right: 10px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+
+.ann-down img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.username {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.username-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.username-text p{
+    margin-left: 5%;
+    font-size: 10px;
+    flex-direction: row;
+}
+
+.users {}
